@@ -1,9 +1,9 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "test"
-    storage_account_name = "tfstatedevops"
-    container_name       = "terraform"
-    key                  = "terraformgithubexample.tfstate"
+    resource_group_name  = "tamopstfstates"
+    storage_account_name = "tamopstf3"
+    container_name       = "tfstatedevops"
+    key                  = "tfstatedevops.tfstate"
   }
 }
 
